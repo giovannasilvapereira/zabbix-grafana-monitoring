@@ -39,3 +39,29 @@ Zabbix Server
      │
      ▼
 Dashboard de Monitoramento
+```
+
+---
+
+## 📊 Dashboard de Monitoramento
+
+O dashboard foi desenvolvido no **Grafana**, utilizando as métricas coletadas pelo **Zabbix Agent 2** e centralizadas no **Zabbix Server**.
+
+Foram implementadas visualizações para:
+
+- Status do servidor;
+- Uptime do sistema;
+- Utilização de CPU;
+- Utilização de memória;
+- Espaço utilizado em disco;
+- Tráfego de rede (Inbound e Outbound).
+
+### Grafana
+
+<img width="1897" height="913" alt="dashboard-grafana-windows-server" src="https://github.com/user-attachments/assets/8084414d-8a38-4a83-b064-f790875539bd" />
+
+
+### Zabbix
+
+<img width="1903" height="909" alt="zabbix" src="https://github.com/user-attachments/assets/8e3f2171-3794-4d05-b521-c3d4e7c6e4ef" />
+
